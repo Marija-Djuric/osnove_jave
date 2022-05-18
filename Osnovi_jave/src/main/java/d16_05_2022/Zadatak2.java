@@ -6,10 +6,11 @@ public class Zadatak2 {
     //ako je prvi broj =2, a drugi =3 vraca novu vrednost 23.
     //ako je prvi broj =6, a drugi =2 vraca novu vrednost 62.
     public static void main(String[] args) {
-        String novaVrednost = vrednost(5,2);
-        System.out.println("Nova vrednost je: "+novaVrednost);
+        int brojevi = vrednost(5,2);
+        System.out.println("Nova vrednost je: "+ brojevi);
     }
-    static String vrednost (int x, int y) {
-        return (x+""+y);
+    static int vrednost (int x, int y) {
+        int spojeniBrojevi = x*10 + y;
+        return (spojeniBrojevi);
     }
 }
