@@ -35,7 +35,7 @@ public class Proizvod {
         return cenaKg;
     }
     public double getCenaLb () {
-        return cenaKg*2.2046;
+        return cenaKg/2.2046;
     }
     public void stampa () {
         System.out.println(sifra+" - "+naziv);
