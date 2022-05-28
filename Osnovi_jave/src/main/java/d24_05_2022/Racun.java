@@ -43,3 +43,5 @@ public class Racun {
         System.out.println("Stanje na racunu je: "+promenaStanja(5000)+" rsd.");
     }
 }
+
+
