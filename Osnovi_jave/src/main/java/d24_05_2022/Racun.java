@@ -33,14 +33,14 @@ public class Racun {
     public double getStanje() {
         return stanje;
     }
-    public double promenaStanja (double transakcija) {
+    public void promenaStanja (double transakcija) {
         if (stanje+transakcija>0) {
-            return stanje+transakcija;
-        } return stanje;
+            this.stanje=stanje+transakcija;
+        } stanje=stanje;
     }
     public void stampa () {
         System.out.println(vlasnik+" - "+broj);
-        System.out.println("Stanje na racunu je: "+promenaStanja(5000)+" rsd.");
+        System.out.println("Stanje na racunu je: "+stanje+" rsd.");
     }
 }
 

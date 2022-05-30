@@ -14,5 +14,7 @@ public class MainRacunTransakcija {
         prva.stampa();
         prva.izvrsiTransakciju(1000);
         prva.stampa();
+        uplatilac.stampa();
+        primalac.stampa();
     }
 }
